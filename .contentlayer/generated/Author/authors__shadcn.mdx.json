@@ -1,10 +1,10 @@
 {
-  "title": "shadcn",
+  "title": "sambacha",
   "avatar": "/images/avatars/shadcn.png",
-  "twitter": "shadcn",
+  "twitter": "sambacha",
   "body": {
     "raw": "",
-    "code": "var Component=(()=>{var x=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var h=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),j=(t,n)=>{for(var e in n)s(t,e,{get:n[e],enumerable:!0})},c=(t,n,e,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of f(n))!_.call(t,r)&&r!==e&&s(t,r,{get:()=>n[r],enumerable:!(o=d(n,r))||o.enumerable});return t};var p=(t,n,e)=>(e=t!=null?x(g(t)):{},c(n||!t||!t.__esModule?s(e,\"default\",{value:t,enumerable:!0}):e,t)),l=t=>c(s({},\"__esModule\",{value:!0}),t);var m=h((F,i)=>{i.exports=_jsx_runtime});var C={};j(C,{default:()=>w,frontmatter:()=>M});var a=p(m()),M={title:\"shadcn\",avatar:\"/images/avatars/shadcn.png\",twitter:\"shadcn\"};function u(t){return(0,a.jsx)(a.Fragment,{})}function v(t={}){let{wrapper:n}=t.components||{};return n?(0,a.jsx)(n,Object.assign({},t,{children:(0,a.jsx)(u,t)})):u(t)}var w=v;return l(C);})();\n;return Component;"
+    "code": "var Component=(()=>{var x=Object.create;var s=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var _=Object.getPrototypeOf,d=Object.prototype.hasOwnProperty;var h=(t,a)=>()=>(a||t((a={exports:{}}).exports,a),a.exports),j=(t,a)=>{for(var n in a)s(t,n,{get:a[n],enumerable:!0})},c=(t,a,n,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of g(a))!d.call(t,r)&&r!==n&&s(t,r,{get:()=>a[r],enumerable:!(o=f(a,r))||o.enumerable});return t};var p=(t,a,n)=>(n=t!=null?x(_(t)):{},c(a||!t||!t.__esModule?s(n,\"default\",{value:t,enumerable:!0}):n,t)),b=t=>c(s({},\"__esModule\",{value:!0}),t);var i=h((D,m)=>{m.exports=_jsx_runtime});var w={};j(w,{default:()=>v,frontmatter:()=>l});var e=p(i()),l={title:\"sambacha\",avatar:\"/images/avatars/shadcn.png\",twitter:\"sambacha\"};function u(t){return(0,e.jsx)(e.Fragment,{})}function M(t={}){let{wrapper:a}=t.components||{};return a?(0,e.jsx)(a,Object.assign({},t,{children:(0,e.jsx)(u,t)})):u(t)}var v=M;return b(w);})();\n;return Component;"
   },
   "_id": "authors/shadcn.mdx",
   "_raw": {

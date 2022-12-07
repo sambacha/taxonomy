@@ -22,7 +22,7 @@ export function Help() {
             className="overflow-hidden rounded-sm"
           />
           <p>
-            This app is a work in progress. I&apos;m building this in public.
+            Under Construction
           </p>
           <p>
             You can follow the progress on Twitter{" "}
@@ -32,7 +32,7 @@ export function Help() {
               rel="noreferrer"
               className="border-b border-b-white"
             >
-              @shadcn
+              @foldfinance
             </a>{" "}
             or on{" "}
             <a

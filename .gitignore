@@ -1,4 +1,5 @@
 # -*- mode: gitignore; -*-
+.next/
 /out
 cache/
 artifacts/

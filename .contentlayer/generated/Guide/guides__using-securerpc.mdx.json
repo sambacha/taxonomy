@@ -1,0 +1,21 @@
+{
+  "title": "Using SecureRpc",
+  "description": "How to use SecureRpc with Metamask and more.",
+  "date": "2022-12-06T00:00:00.000Z",
+  "published": true,
+  "body": {
+    "raw": "\n<Callout>\n\nThis page is under construction\n\n</Callout>\n\n## Using SecureRpc\n\nConnecting information\n\n### Metamask\n\n### WalletConnect\n\n## Support",
+    "code": "var Component=(()=>{var h=Object.create;var c=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),b=(n,e)=>{for(var t in e)c(n,t,{get:e[t],enumerable:!0})},o=(n,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of p(e))!g.call(n,i)&&i!==t&&c(n,i,{get:()=>e[i],enumerable:!(s=u(e,i))||s.enumerable});return n};var k=(n,e,t)=>(t=n!=null?h(m(n)):{},o(e||!n||!n.__esModule?c(t,\"default\",{value:n,enumerable:!0}):t,n)),x=n=>o(c({},\"__esModule\",{value:!0}),n);var l=f((y,r)=>{r.exports=_jsx_runtime});var C={};b(C,{default:()=>w,frontmatter:()=>_});var a=k(l()),_={title:\"Using SecureRpc\",description:\"How to use SecureRpc with Metamask and more.\",date:new Date(16702848e5)};function d(n){let e=Object.assign({p:\"p\",h2:\"h2\",a:\"a\",span:\"span\",h3:\"h3\"},n.components),{Callout:t}=e;return t||N(\"Callout\",!0,\"7:1-11:11\"),(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t,{children:(0,a.jsx)(e.p,{children:\"This page is under construction\"})}),`\n`,(0,a.jsxs)(e.h2,{id:\"using-securerpc\",children:[(0,a.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#using-securerpc\",children:(0,a.jsx)(e.span,{className:\"icon icon-link\"})}),\"Using SecureRpc\"]}),`\n`,(0,a.jsx)(e.p,{children:\"Connecting information\"}),`\n`,(0,a.jsxs)(e.h3,{id:\"metamask\",children:[(0,a.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#metamask\",children:(0,a.jsx)(e.span,{className:\"icon icon-link\"})}),\"Metamask\"]}),`\n`,(0,a.jsxs)(e.h3,{id:\"walletconnect\",children:[(0,a.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#walletconnect\",children:(0,a.jsx)(e.span,{className:\"icon icon-link\"})}),\"WalletConnect\"]}),`\n`,(0,a.jsxs)(e.h2,{id:\"support\",children:[(0,a.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#support\",children:(0,a.jsx)(e.span,{className:\"icon icon-link\"})}),\"Support\"]})]})}function j(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,Object.assign({},n,{children:(0,a.jsx)(d,n)})):d(n)}var w=j;function N(n,e,t){throw new Error(\"Expected \"+(e?\"component\":\"object\")+\" `\"+n+\"` to be defined: you likely forgot to import, pass, or provide it.\"+(t?\"\\nIt\\u2019s referenced in your code at `\"+t+\"` in `/Users/janitor/resite/content/guides/_mdx_bundler_entry_point-8de2b3ed-9347-40a2-a536-1e52a4aec674.mdx`\":\"\"))}return x(C);})();\n;return Component;"
+  },
+  "_id": "guides/using-securerpc.mdx",
+  "_raw": {
+    "sourceFilePath": "guides/using-securerpc.mdx",
+    "sourceFileName": "using-securerpc.mdx",
+    "sourceFileDir": "guides",
+    "contentType": "mdx",
+    "flattenedPath": "guides/using-securerpc"
+  },
+  "type": "Guide",
+  "slug": "/guides/using-securerpc",
+  "slugAsParams": "using-securerpc"
+}

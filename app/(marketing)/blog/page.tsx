@@ -17,17 +17,17 @@ export default async function BlogPage() {
       <div className="flex flex-col items-start gap-4 md:flex-row md:justify-between md:gap-8">
         <div className="flex-1 space-y-4">
           <h1 className="inline-block text-4xl font-extrabold tracking-tight text-slate-900 lg:text-5xl">
-            Blog
+            Primitives
           </h1>
           <p className="text-xl text-slate-600">
-            A blog built using Contentlayer. Posts are written in MDX.
+            Engineering and Technical blog
           </p>
         </div>
         <Link
           href="/guides"
           className="relative inline-flex h-11 items-center rounded-md border border-slate-900 bg-white px-8 py-2 text-center font-medium text-slate-900 transition-colors hover:bg-slate-900 hover:text-slate-100 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2"
         >
-          Build your own
+          Submit an essay
         </Link>
       </div>
       <hr className="my-8 border-slate-200" />

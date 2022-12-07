@@ -7,7 +7,7 @@ import { siteConfig } from "@/config/site"
 async function getGitHubStars(): Promise<string | null> {
   try {
     const response = await fetch(
-      "https://api.github.com/repos/shadcn/taxonomy",
+      "https://api.github.com/repos/shadcn/Manifold",
       {
         headers: {
           Accept: "application/vnd.github+json",
@@ -40,11 +40,10 @@ export default async function IndexPage() {
         <Image src={hero} width={250} alt="Hero image" priority />
         <div className="mx-auto flex flex-col items-start gap-4 lg:w-[52rem]">
           <h1 className="text-3xl font-bold leading-[1.1] tracking-tighter sm:text-5xl md:text-6xl">
-            What&apos;s going on here?
+            Maximal Emancipated Value
           </h1>
           <p className="max-w-[42rem] leading-normal text-slate-700 sm:text-xl sm:leading-8">
-            I&apos;m building a web app with Next.js 13 and open sourcing
-            everything. Follow along as we figure this out together.
+            Connecting capital to opportunities
           </p>
         </div>
         <div className="flex gap-4">
@@ -71,9 +70,7 @@ export default async function IndexPage() {
             Features
           </h2>
           <p className="max-w-[85%] leading-normal text-slate-700 sm:text-lg sm:leading-7">
-            This project is an experiment to see how a modern app, with features
-            like auth, subscriptions, API routes, and static pages would work in
-            Next.js 13 app dir.
+
           </p>
         </div>
         <div className="grid justify-center gap-4 sm:grid-cols-2 md:max-w-[56rem] md:grid-cols-3">
@@ -165,7 +162,7 @@ export default async function IndexPage() {
         </div>
         <div className="mx-auto flex flex-col gap-4 md:max-w-[52rem]">
           <p className="max-w-[85%] leading-normal text-slate-700 sm:text-lg sm:leading-7">
-            Taxonomy also includes a blog and a full-featured documentation site
+            Manifold also includes a blog and a full-featured documentation site
             built using Contentlayer and MDX.
           </p>
         </div>
@@ -177,7 +174,7 @@ export default async function IndexPage() {
             Proudly Open Source
           </h2>
           <p className="max-w-[85%] leading-normal text-slate-700 sm:text-lg sm:leading-7">
-            Taxonomy is open source and powered by open source software. The
+            Manifold is open source and powered by open source software. The
             code is available on{" "}
             <Link
               href={siteConfig.links.github}
