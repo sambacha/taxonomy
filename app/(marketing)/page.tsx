@@ -7,7 +7,7 @@ import { siteConfig } from "@/config/site"
 async function getGitHubStars(): Promise<string | null> {
   try {
     const response = await fetch(
-      "https://api.github.com/repos/shadcn/Manifold",
+      "https://api.github.com/repos/manifoldfinance/v2website",
       {
         headers: {
           Accept: "application/vnd.github+json",
@@ -37,7 +37,7 @@ export default async function IndexPage() {
   return (
     <>
       <section className="container grid items-center justify-center gap-6 pt-6 pb-8 md:pt-10 md:pb-12 lg:pt-16 lg:pb-24">
-        <Image src={hero} width={250} alt="Hero image" priority />
+        <Image src={hero} width={680} alt="Hero image" priority />
         <div className="mx-auto flex flex-col items-start gap-4 lg:w-[52rem]">
           <h1 className="text-3xl font-bold leading-[1.1] tracking-tighter sm:text-5xl md:text-6xl">
             Maximal Emancipated Value
@@ -67,7 +67,7 @@ export default async function IndexPage() {
       <section className="container grid justify-center gap-6 py-8 md:py-12 lg:py-24">
         <div className="mx-auto flex flex-col gap-4 md:max-w-[52rem]">
           <h2 className="text-3xl font-bold leading-[1.1] tracking-tighter sm:text-3xl md:text-6xl">
-            Features
+            Subsystems
           </h2>
           <p className="max-w-[85%] leading-normal text-slate-700 sm:text-lg sm:leading-7">
 
@@ -106,9 +106,9 @@ export default async function IndexPage() {
                 <path d="M0 12C0 5.373 5.373 0 12 0c4.873 0 9.067 2.904 10.947 7.077l-15.87 15.87a11.981 11.981 0 0 1-1.935-1.099L14.99 12H12l-8.485 8.485A11.962 11.962 0 0 1 0 12Zm12.004 12L24 12.004C23.998 18.628 18.628 23.998 12.004 24Z" />
               </svg>
               <div className="space-y-2">
-                <h3 className="font-bold text-slate-100">Database</h3>
+                <h3 className="font-bold text-slate-100">OpenMEV</h3>
                 <p className="text-sm text-slate-100">
-                  ORM using Prisma and deployed on PlanetScale.
+                  Next generation MEV solutions
                 </p>
               </div>
             </div>
@@ -119,7 +119,7 @@ export default async function IndexPage() {
                 <path d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z" />
               </svg>
               <div className="space-y-2">
-                <h3 className="font-bold text-slate-100">Components</h3>
+                <h3 className="font-bold text-slate-100">Disco3</h3>
                 <p className="text-sm text-slate-100">
                   UI components built using Radix UI and styled with Tailwind
                   CSS.
@@ -139,9 +139,9 @@ export default async function IndexPage() {
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
               </svg>
               <div className="space-y-2">
-                <h3 className="font-bold text-slate-100">Authentication</h3>
+                <h3 className="font-bold text-slate-100">Sushi Guard</h3>
                 <p className="text-sm text-slate-100">
-                  Authentication using NextAuth.js and middlewares.
+                  Protecting Sushiswap users from MEV
                 </p>
               </div>
             </div>
@@ -152,9 +152,9 @@ export default async function IndexPage() {
                 <path d="M13.976 9.15c-2.172-.806-3.356-1.426-3.356-2.409 0-.831.683-1.305 1.901-1.305 2.227 0 4.515.858 6.09 1.631l.89-5.494C18.252.975 15.697 0 12.165 0 9.667 0 7.589.654 6.104 1.872 4.56 3.147 3.757 4.992 3.757 7.218c0 4.039 2.467 5.76 6.476 7.219 2.585.92 3.445 1.574 3.445 2.583 0 .98-.84 1.545-2.354 1.545-1.875 0-4.965-.921-6.99-2.109l-.9 5.555C5.175 22.99 8.385 24 11.714 24c2.641 0 4.843-.624 6.328-1.813 1.664-1.305 2.525-3.236 2.525-5.732 0-4.128-2.524-5.851-6.594-7.305h.003z" />
               </svg>
               <div className="space-y-2">
-                <h3 className="font-bold text-slate-100">Subscriptions</h3>
+                <h3 className="font-bold text-slate-100">SecureRpc</h3>
                 <p className="text-sm text-slate-100">
-                  Free and paid subscriptions using Stripe.
+                  Uncensored access to Ethereum
                 </p>
               </div>
             </div>
@@ -162,8 +162,7 @@ export default async function IndexPage() {
         </div>
         <div className="mx-auto flex flex-col gap-4 md:max-w-[52rem]">
           <p className="max-w-[85%] leading-normal text-slate-700 sm:text-lg sm:leading-7">
-            Manifold also includes a blog and a full-featured documentation site
-            built using Contentlayer and MDX.
+            Subsystems combine to make up manifold
           </p>
         </div>
       </section>
@@ -171,7 +170,7 @@ export default async function IndexPage() {
       <section className="container grid justify-center gap-6 py-8 md:py-12 lg:py-24">
         <div className="mx-auto flex flex-col gap-4 md:max-w-[52rem]">
           <h2 className="text-3xl font-bold leading-[1.1] tracking-tighter sm:text-3xl md:text-6xl">
-            Proudly Open Source
+          Supporting Fundamental Innovation
           </h2>
           <p className="max-w-[85%] leading-normal text-slate-700 sm:text-lg sm:leading-7">
             Manifold is open source and powered by open source software. The
@@ -182,11 +181,11 @@ export default async function IndexPage() {
               rel="noreferrer"
               className="underline underline-offset-4"
             >
-              GitHub
+              Grants
             </Link>
             .{" "}
             <Link href="/docs" className="underline underline-offset-4">
-              I&apos;m also documenting everything here
+              Gitcoin
             </Link>
             .
           </p>

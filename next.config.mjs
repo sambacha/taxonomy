@@ -1,8 +1,12 @@
 import { withContentlayer } from "next-contentlayer"
 
-/** @type {import('next').NextConfig} */
+// @ts-check
+/**
+ * @type {import('next').NextConfig}
+ */
 const nextConfig = {
   reactStrictMode: true,
+  poweredByHeader: false,
   images: {
     domains: ["avatars.githubusercontent.com"],
   },

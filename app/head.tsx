@@ -5,7 +5,7 @@ export default function Head() {
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width" />
       <meta
-        name="description"
+        name="Manifold Finance"
         content="An open source protocol for MEV"
       />
 
