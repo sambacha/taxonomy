@@ -1,11 +1,11 @@
 {
   "name": "webapp",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "turbo": "next dev --turbo",
-    "build": "npx next build",
+    "build": "bash build.sh",
     "start": "next start",
     "lint": "next lint",
     "preview": "next build && next start",
