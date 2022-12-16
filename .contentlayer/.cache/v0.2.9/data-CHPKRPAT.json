@@ -1,5 +1,30 @@
 {
   "cacheItemsMap": {
+    "authors/sambacha.mdx": {
+      "document": {
+        "title": "sambacha",
+        "avatar": "/images/avatars/sambacha.png",
+        "twitter": "sambacha",
+        "body": {
+          "raw": "",
+          "code": "var Component=(()=>{var x=Object.create;var s=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var _=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(t,a)=>()=>(a||t((a={exports:{}}).exports,a),a.exports),j=(t,a)=>{for(var e in a)s(t,e,{get:a[e],enumerable:!0})},c=(t,a,e,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of g(a))!b.call(t,r)&&r!==e&&s(t,r,{get:()=>a[r],enumerable:!(o=f(a,r))||o.enumerable});return t};var p=(t,a,e)=>(e=t!=null?x(_(t)):{},c(a||!t||!t.__esModule?s(e,\"default\",{value:t,enumerable:!0}):e,t)),d=t=>c(s({},\"__esModule\",{value:!0}),t);var i=h((D,m)=>{m.exports=_jsx_runtime});var w={};j(w,{default:()=>v,frontmatter:()=>l});var n=p(i()),l={title:\"sambacha\",avatar:\"/images/avatars/sambacha.png\",twitter:\"sambacha\"};function u(t){return(0,n.jsx)(n.Fragment,{})}function M(t={}){let{wrapper:a}=t.components||{};return a?(0,n.jsx)(a,Object.assign({},t,{children:(0,n.jsx)(u,t)})):u(t)}var v=M;return d(w);})();\n;return Component;"
+        },
+        "_id": "authors/sambacha.mdx",
+        "_raw": {
+          "sourceFilePath": "authors/sambacha.mdx",
+          "sourceFileName": "sambacha.mdx",
+          "sourceFileDir": "authors",
+          "contentType": "mdx",
+          "flattenedPath": "authors/sambacha"
+        },
+        "type": "Author",
+        "slug": "/authors/sambacha",
+        "slugAsParams": "sambacha"
+      },
+      "documentHash": "1670540709561",
+      "hasWarnings": false,
+      "documentTypeName": "Author"
+    },
     "blog/dynamic-routing-static-regeneration.mdx": {
       "document": {
         "title": "Dynamic Routing and Static Regeneration",
@@ -369,31 +394,6 @@
       "documentHash": "1670448209090",
       "hasWarnings": false,
       "documentTypeName": "Doc"
-    },
-    "authors/sambacha.mdx": {
-      "document": {
-        "title": "sambacha",
-        "avatar": "/images/avatars/sambacha.png",
-        "twitter": "sambacha",
-        "body": {
-          "raw": "",
-          "code": "var Component=(()=>{var x=Object.create;var s=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var _=Object.getPrototypeOf,b=Object.prototype.hasOwnProperty;var h=(t,a)=>()=>(a||t((a={exports:{}}).exports,a),a.exports),j=(t,a)=>{for(var e in a)s(t,e,{get:a[e],enumerable:!0})},c=(t,a,e,o)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of g(a))!b.call(t,r)&&r!==e&&s(t,r,{get:()=>a[r],enumerable:!(o=f(a,r))||o.enumerable});return t};var p=(t,a,e)=>(e=t!=null?x(_(t)):{},c(a||!t||!t.__esModule?s(e,\"default\",{value:t,enumerable:!0}):e,t)),d=t=>c(s({},\"__esModule\",{value:!0}),t);var i=h((D,m)=>{m.exports=_jsx_runtime});var w={};j(w,{default:()=>v,frontmatter:()=>l});var n=p(i()),l={title:\"sambacha\",avatar:\"/images/avatars/sambacha.png\",twitter:\"sambacha\"};function u(t){return(0,n.jsx)(n.Fragment,{})}function M(t={}){let{wrapper:a}=t.components||{};return a?(0,n.jsx)(a,Object.assign({},t,{children:(0,n.jsx)(u,t)})):u(t)}var v=M;return d(w);})();\n;return Component;"
-        },
-        "_id": "authors/sambacha.mdx",
-        "_raw": {
-          "sourceFilePath": "authors/sambacha.mdx",
-          "sourceFileName": "sambacha.mdx",
-          "sourceFileDir": "authors",
-          "contentType": "mdx",
-          "flattenedPath": "authors/sambacha"
-        },
-        "type": "Author",
-        "slug": "/authors/sambacha",
-        "slugAsParams": "sambacha"
-      },
-      "documentHash": "1670540709561",
-      "hasWarnings": false,
-      "documentTypeName": "Author"
     }
   }
 }
