@@ -12,11 +12,11 @@ export default function Head() {
       <meta property="og:title" content="Manifold Finance" />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://manifoldfinance.com" />
-      <meta property="og:image" content="#" />
+      <meta property="og:image" content="https://www.manifoldfinance.com/social.png" />
       <meta name="twitter:title" content="Manifold Finance" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://manifoldfinance.com" />
-      <meta name="twitter:image" content="#" />
+      <meta name="twitter:image" content="https://www.manifoldfinance.com/social.png" />
     </>
   )
 }

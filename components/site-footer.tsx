@@ -8,38 +8,38 @@ export function SiteFooter() {
         <div className="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
           <Icons.logo />
           <p className="text-center text-sm leading-loose md:text-left">
-            Version{" "}
+            Built by{" "}
             <a
               href={siteConfig.links.twitter}
               target="_blank"
               rel="noreferrer"
               className="font-medium underline underline-offset-4"
             >
-              git.0?
+              shadcn
             </a>
-            . Warrant{" "}
+            . Hosted on{" "}
             <a
-              href="#"
+              href="https://vercel.com"
               target="_blank"
               rel="noreferrer"
               className="font-medium underline underline-offset-4"
             >
-              Canary
+              Vercel
             </a>
-            . Status{" "}
+            . Illustrations by{" "}
             <a
-              href="#"
+              href="https://popsy.co"
               target="_blank"
               rel="noreferrer"
               className="font-medium underline underline-offset-4"
             >
-              Offline
+              Popsy
             </a>
             .
           </p>
         </div>
         <p className="text-center text-sm md:text-left">
-          Contribute on{" "}
+          The source code is available on{" "}
           <a
             href={siteConfig.links.github}
             target="_blank"
