@@ -29,21 +29,21 @@ export const docsConfig: DocsConfig = {
           href: "/docs/documentation",
         },
         {
-          title: "Contentlayer",
+          title: "Wiki",
           href: "/docs/in-progress",
           disabled: true,
         },
         {
-          title: "Components",
-          href: "/docs/documentation/components",
+          title: "Community",
+          href: "/docs/documentation/community",
         },
         {
-          title: "Code Blocks",
-          href: "/docs/documentation/code-blocks",
+          title: "Integrations",
+          href: "/docs/documentation/integrations",
         },
         {
-          title: "Style Guide",
-          href: "/docs/documentation/style-guide",
+          title: "User Guide",
+          href: "/docs/documentation/user-guide",
         },
         {
           title: "Search",
@@ -53,7 +53,7 @@ export const docsConfig: DocsConfig = {
       ],
     },
     {
-      title: "Blog",
+      title: "Tutorials",
       items: [
         {
           title: "Introduction",
@@ -61,19 +61,19 @@ export const docsConfig: DocsConfig = {
           disabled: true,
         },
         {
-          title: "Build your own",
+          title: "Market Makers",
           href: "/docs/in-progress",
           disabled: true,
         },
         {
-          title: "Writing Posts",
+          title: "Validators",
           href: "/docs/in-progress",
           disabled: true,
         },
       ],
     },
     {
-      title: "Dashboard",
+      title: "Subsystems",
       items: [
         {
           title: "Introduction",
@@ -81,22 +81,22 @@ export const docsConfig: DocsConfig = {
           disabled: true,
         },
         {
-          title: "Layouts",
+          title: "OpenMev",
           href: "/docs/in-progress",
           disabled: true,
         },
         {
-          title: "Server Components",
+          title: "SecureRpc",
           href: "/docs/in-progress",
           disabled: true,
         },
         {
-          title: "Authentication",
+          title: "OpenMev2",
           href: "/docs/in-progress",
           disabled: true,
         },
         {
-          title: "Database with Prisma",
+          title: "VENOM",
           href: "/docs/in-progress",
           disabled: true,
         },
@@ -108,25 +108,25 @@ export const docsConfig: DocsConfig = {
       ],
     },
     {
-      title: "Marketing Site",
+      title: "Protocols",
       items: [
         {
-          title: "Introduction",
+          title: "Switchboard",
           href: "/docs/in-progress",
           disabled: true,
         },
         {
-          title: "File Structure",
+          title: "StakingV2",
           href: "/docs/in-progress",
           disabled: true,
         },
         {
-          title: "Tailwind CSS",
+          title: "Arecibo",
           href: "/docs/in-progress",
           disabled: true,
         },
         {
-          title: "Typography",
+          title: "API",
           href: "/docs/in-progress",
           disabled: true,
         },
