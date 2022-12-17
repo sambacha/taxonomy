@@ -4,7 +4,7 @@ import { Icons } from "@/components/icons"
 
 export default function PricingPage() {
   return (
-    <section className="container flex flex-col  gap-6 py-8 md:max-w-[64rem] md:py-12 lg:py-24">
+    <section className="container flex flex-col  gap-6 py-8  md:py-12 lg:py-24">
       <div className="mx-auto flex w-full flex-col gap-4 md:max-w-[52rem]">
         <h2 className="text-3xl font-bold leading-[1.1] tracking-tighter sm:text-3xl md:text-6xl">
           Simple, transparent pricing
@@ -13,7 +13,7 @@ export default function PricingPage() {
           Unlock all features including unlimited posts for your blog.
         </p>
       </div>
-      <div className="grid w-full items-start gap-10 rounded-lg border border-slate-200 p-10 md:grid-cols-[1fr_200px]">
+      <div className="grid w-full items-start gap-10 md:max-w-[60rem] mx-auto rounded-lg border border-slate-200 p-10 md:grid-cols-[1fr_200px]">
         <div className="grid gap-6">
           <h3 className="text-xl font-bold sm:text-2xl">
             What&apos;s included in the PRO plan
@@ -55,7 +55,7 @@ export default function PricingPage() {
       </div>
       <div className="mx-auto flex w-full flex-col gap-4 md:max-w-[52rem]">
         <p className="max-w-[85%] leading-normal text-slate-700 sm:leading-7">
-          Taxonomy is a demo app.{" "}
+          Manifold is a demo app.{" "}
           <strong>You can test the upgrade and won&apos;t be charged.</strong>
         </p>
       </div>
