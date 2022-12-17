@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "turbo": "next dev --turbo",
-    "build": "bash build.sh",
+    "prod": "bash build.sh",
+    "build": "npx next build",
     "start": "next start",
     "lint": "next lint",
     "preview": "next build && next start",
