@@ -1,19 +1,15 @@
 {
-  "name": "taxonomy",
-  "version": "0.1.0",
+  "name": "webapp",
+  "version": "0.0.9",
   "private": true,
-  "author": {
-    "name": "shadcn",
-    "url": "https://twitter.com/shadcn"
-  },
   "scripts": {
     "dev": "next dev",
     "turbo": "next dev --turbo",
-    "build": "next build",
+    "build": "bash build.sh",
     "start": "next start",
     "lint": "next lint",
     "preview": "next build && next start",
-    "postinstall": "prisma generate"
+    "postinstall": "npx prisma generate"
   },
   "dependencies": {
     "@editorjs/code": "^2.7.0",
@@ -39,6 +35,7 @@
     "@vercel/og": "^0.0.21",
     "clsx": "^1.2.1",
     "contentlayer": "^0.2.9",
+    "csstype": "^3.0.10",
     "date-fns": "^2.29.3",
     "framer-motion": "^7.6.12",
     "lucide-react": "^0.92.0",
@@ -72,7 +69,6 @@
     "autoprefixer": "^10.4.8",
     "eslint": "8.21.0",
     "eslint-config-next": "^13.0.0",
-    "husky": "^8.0.2",
     "mdast-util-toc": "^6.1.0",
     "postcss": "^8.4.14",
     "prettier": "^2.7.1",
